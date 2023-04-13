@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: appsrv
-          image: ghcr.io/g-tikautz/hugo-backend-tikautz:latest
+          image: ghcr.io/reinhartrobin/hugo-backend-reinhart:latest
           # remove this when stable. Currently we do not take care of version numbers
           imagePullPolicy: Always
           ports:

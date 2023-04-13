@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: ghcr.io/g-tikautz/hugo-page-tikautz:latest
+          image: ghcr.io/reinhartrobin/reinhart-hugo-page:latest
           ports:
             - containerPort: 80
           livenessProbe:

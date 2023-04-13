@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Starts on My New Hugo Site</title>
-    <link>http://example.org/start/</link>
+    <link>https://student.cloud.htl-leonding.ac.at/r.reinhart/start/</link>
     <description>Recent content in Starts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Mar 2023 09:21:10 +0100</lastBuildDate><atom:link href="http://example.org/start/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Mar 2023 09:21:10 +0100</lastBuildDate><atom:link href="https://student.cloud.htl-leonding.ac.at/r.reinhart/start/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Start Page</title>
-      <link>http://example.org/start/start-page/</link>
+      <link>https://student.cloud.htl-leonding.ac.at/r.reinhart/start/start-page/</link>
       <pubDate>Fri, 10 Mar 2023 09:21:10 +0100</pubDate>
       
-      <guid>http://example.org/start/start-page/</guid>
+      <guid>https://student.cloud.htl-leonding.ac.at/r.reinhart/start/start-page/</guid>
       <description>Introduction This is bold text, and this is emphasized text.
 Visit the Hugo website!</description>
     </item>

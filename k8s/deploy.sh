@@ -13,15 +13,16 @@ else
     echo "not on docker desktop, standard storage class exists, skipping."
 fi
 
-docker image tag hugo-page-tikautz ghcr.io/g-tikautz/hugo-page-tikautz:latest
-docker push ghcr.io/g-tikautz/hugo-page-tikautz:latest
-docker image tag hugo-backend-tikautz ghcr.io/g-tikautz/hugo-backend-tikautz:latest
-docker push ghcr.io/g-tikautz/hugo-backend-tikautz:latest
+docker image tag reinhart-hugo-page ghcr.io/reinhartrobin/reinhart-hugo-page:latest
+docker push ghcr.io/reinhartrobin/reinhart-hugo-page:latest
+docker image tag hugo-backend-reinhart ghcr.io/reinhartrobin/hugo-backend-reinhart:latest
+docker push ghcr.io/reinhartrobin/hugo-backend-reinhart:latest
 kubectl delete -f appsrv.yaml
 kubectl delete -f nginx.yaml
 kubectl apply -f namespace.yaml
 kubectl apply -f appsrv.yaml
 kubectl apply -f nginx.yaml
+kubectl apply -f ingress.yaml
 
 echo "----------"
 echo "DO NOT FORGET: make the ${bold}docker image public${normal} on ghcr.io"
